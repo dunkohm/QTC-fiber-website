@@ -1,0 +1,209 @@
+/*............Google Fonts................*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300;400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    /*............color styles............*/
+    --primary: rgb(25, 156, 189);
+    --primary-light: rgb(100, 190, 212);
+    --dark-color: #0672cad2;
+    --gray-1: #798092;
+    --gray-2: #E6E6ED;
+    --white: #ffffff;
+
+    /*............font size............*/
+    --header-1: 64px;
+    --header-2: 48px;
+    --header-3: 42px;
+    --header-4: 32px;
+
+    --text-medium: 20px;
+    --text-regular: 20px;
+    --text-light: 15px;
+
+
+    --font-weight-bold: 700;
+    --font-weight-semi-bold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+    --font-weight-light: 300;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    padding: 10px 17px;
+    border-radius: 7px;
+
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-secondary {
+    background-color: var(--gray-2);
+    color: var(--gray-1);
+}
+
+.btn-secondary:focus {
+    background-color: var(--white);
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.02) !important;
+    color: var(--gray-1);
+}
+
+.btn-secondary:hover {
+    background-color: var(--gray-1) !important;
+    box-shadow: rgba(0, 0, 0, 0.05) !important;
+    color: var(--gray-1);
+}
+
+.bg {
+    background-color: #06283d;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding-left: 30px;
+    font-size: var(--header-1);
+    font-weight: var(--font-weight-bold);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+.section.hero {
+    margin: 5rem 0;
+}
+
+.text-label,
+.text-hero-bold,
+.text-hero-regular {
+    margin: 30px 0;
+}
+
+.text-label {
+    color: var(--gray-1);
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: 31px;
+}
+
+.text-hero-bold {
+    color: var(--dark-color);
+    font-size: var(--header-1);
+    font-weight: var(--font-weight-bold);
+    line-height: 72px;
+}
+
+.text-hero-regular {
+    color: var(--gray-1);
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-semi-bold);
+    line-height: 35px;
+}
+
+.small-header {
+    color: #06283d;
+    font-size: var(--header-3);
+    font-weight: var(--font-weight-bold);
+    line-height: 41px;
+}
+
+.smaller-header {
+    color: var(--gray-1);
+    font-size: var(--header-4);
+    font-weight: var(--font-weight-bold);
+    line-height: 41px;
+}
+
+.services .card {
+    background-color: var(--white);
+    border: none;
+
+}
+#hero{
+    height: 100%;
+    width: 100%;
+}
+
+.promo .card {
+    background-color: var(--white);
+    border: none;
+    width: 80rem;
+}
+.promo-content p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    line-height: 41px;
+    color: #06283d;
+}
+
+.card-img-top {
+    height: 200px !important;
+    width: 200px !important;
+}
+
+.teams .card {
+    background-color: var(--white);
+    border: none;
+}
+
+.contact-us {
+    background-color:#06283d;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.text-paragraph {
+    color: #ffffff;
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-bold);
+    font-family: Poppins;
+}
+.footer{
+    background-color: #06283d;
+    
+}
+.text-footer{
+    font-size: var(--text-light);
+    font-family: Poppins;
+    color: #ffffff;
+}
+.shop-hero-img{
+    height: 150px;
+    width: 150px;
+}
+.card-img-top{
+width: 100%;
+height: 200px;
+object-fit: cover;
+margin: 10px;
+
+}
+.card-img-center{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;  
+}
+.card .card-body p {
+text-align: justify;
+display: -webkit-box;
+-webkit-line-clamp: 1;
+-webkit-box-orient: vertical;
+overflow: hidden;
+}
