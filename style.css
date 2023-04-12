@@ -200,10 +200,10 @@ margin: 10px;
     object-fit: cover;
     margin: 10px;  
 }
-.card .card-body p {
+/* .card .card-body p {
 text-align: justify;
 display: -webkit-box;
 -webkit-line-clamp: 1;
 -webkit-box-orient: vertical;
 overflow: hidden;
-}
+} */
